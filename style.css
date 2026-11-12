@@ -1,25 +1,105 @@
-html {
-  height: 100%;
-  background: 50% 50% no-repeat;
-}
 body{
-  background-color:oklch(0.8411 0.1 55 / 69.47%);
+    background-color:oklch(0.859249 0.090149 56.372039 / 64.2%);
 }
-.golden-rat{
-  color:oklch(0.4059 0.1 55 / 73.6%);
+.father-r{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
 }
-#bb{
-  background-color:oklch(0.5 0.1229 50.82 / 95.43%);
-  color:oklch(1 0 0 / 95.4%);
-  cursor:help;
+.father-c{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:2vh;
 }
-h2,h3,h4{
-  font-size:25px;
+.father-c h3{
+    text-align:center;
+    margin-bottom:0;
 }
-p,h5,h6{
-  text-align:center;
+#ps{
+    color:oklch(0.053171 0.021819 29.23388 / 65.04%);
+    text-align:center;
+    margin-top:0;
 }
-img{
-  cursor:cell;
-  opacity:0.8;
+.rrr{
+    position:absolute;
+    left:25rem;
+}
+#first-img{
+    width:25vw;
+}
+#sure{
+    position:fixed;
+    left:93vw;
+    top:95vh;
+    color:white;
+    background-color:oklch(0.060865 0.024976 29.23388 / 76.6%);
+}
+.report{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:0;
+}
+.report img{
+    display:block;
+    width:30vw;
+    margin-right:2vh;
+    margin-bottom:0;
+}
+.project{
+    display:flex;
+    position: relative;
+    justify-content:space-between;
+}
+.pre{
+    background-color: oklch(0.869661 0.084558 58.22264 / 58.6%);
+    border:3px solid oklch(0.4042 0.084558 58.22264 / 81.56%);
+    margin:10px;
+    width:20rem;
+    height:30vh;
+    text-align:center;
+    padding-top:5vh;
+}
+.pre h6{
+    display:inline;
+    font-size:3vh;
+}
+.pre h4{
+    display:inline;
+    font-size:5vh;
+    margin:1vh 0rem 1vh 0px;
+}
+.pre p{
+    display:inline;
+    font-size:2.5vh;
+    margin:0rem;
+}
+.pre img{
+    display:inline;
+    height:3vh;
+    width:auto;
+}
+.pre button{
+    margin:0.5rem;
+    background-color: oklch(0.7162 0.093775 52.924059);
+    color:white;
+}
+.sm{
+    color:oklch(0.053171 0.021819 29.23388 / 56%);
+    border:1px dotted black;
+}
+.project2{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    justify-content: center;
+}
+#biggg{
+    position:relative;
+    left:33vw;
+    width:35vw;
+    text-align:center;
+    border:3px double black;
+    border-radius:5px;
 }
